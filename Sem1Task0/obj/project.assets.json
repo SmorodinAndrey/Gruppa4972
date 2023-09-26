@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ALFA\\Documents\\Документы\\Gruppa4972\\Sem1Task0\\Sem1Task0.csproj",
+      "projectUniqueName": "c:\\Users\\ALFA\\Documents\\Документы\\Gruppa4972\\Sem1Task0\\Sem1Task0.csproj",
       "projectName": "Sem1Task0",
-      "projectPath": "C:\\Users\\ALFA\\Documents\\Документы\\Gruppa4972\\Sem1Task0\\Sem1Task0.csproj",
+      "projectPath": "c:\\Users\\ALFA\\Documents\\Документы\\Gruppa4972\\Sem1Task0\\Sem1Task0.csproj",
       "packagesPath": "C:\\Users\\ALFA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ALFA\\Documents\\Документы\\Gruppa4972\\Sem1Task0\\obj\\",
+      "outputPath": "c:\\Users\\ALFA\\Documents\\Документы\\Gruppa4972\\Sem1Task0\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ALFA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }
