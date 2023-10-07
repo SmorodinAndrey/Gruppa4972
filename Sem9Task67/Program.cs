@@ -1,0 +1,52 @@
+﻿// Задача 67
+// программа принимает на вход число N
+// и возвращает сумму цифр в числе
+
+// int ReadData(string msg) // вводим данные
+// {
+//     Console.WriteLine(msg);
+//     int num = int.Parse(Console.ReadLine() ?? "0");
+//     return num;
+// }
+
+// int digitSum(int num)
+// {
+
+//     if(num > 0)
+//     {
+//     return  digitSum(num/10)+num%10;
+//     } else return 0;
+
+// }
+
+// int num = ReadData("Введите число");
+// Console.WriteLine($"Сумма цифр { digitSum(num)}");
+
+
+
+int ReadData(string line)
+{
+    Console.Write(line);
+    int number = int.Parse(Console.ReadLine() ?? "0");
+    return number;
+}
+void PrintData(string msg)
+{
+    Console.WriteLine(msg);
+}
+int SumDigitRec(int num)
+{
+
+    if (num == 0)
+    {
+        return 0;
+    }
+    else
+    {
+        return num % 10 + SumDigitRec(num / 10);
+    }
+
+}
+
+int number = ReadData($"Введите число: ");
+PrintData($"Сумма всех цифр в числе {number} равна {SumDigitRec(number)}.");
